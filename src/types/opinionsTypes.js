@@ -1,0 +1,3 @@
+export const GET_ALL_OPINIONS = 'GET_ALL_OPINIONS'
+export const LOAD_OPINION = 'LOAD_OPINION'
+export const ERROR_OPINION = 'ERROR_OPINION'

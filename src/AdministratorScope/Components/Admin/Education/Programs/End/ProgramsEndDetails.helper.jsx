@@ -1,0 +1,112 @@
+/* TODO: Delete when using queryApi */
+export const dataFake = {
+  id: 1,
+  name: "TMA",
+  code: "TMA8689",
+  category: "Program",
+  total_courses: 15,
+  alumnos_inscritos: 17,
+  teacher: "Garrido A",
+  status: false,
+  state: "Finalizado",
+};
+
+/* TODO: Delete when using queryApi */
+export const temarioFake = {
+  codigo: "TMA8689",
+  instructor: "Kevin Urbina",
+  country: "Peru",
+  courses_total: 12,
+  hours_total: 800,
+  mod: "semipresencial",
+  date_ini: "12 abril de 2021",
+  date_end: "30 abril de 2021",
+  months_total: 16,
+  auth: "DGAC- AFAC",
+  total_instructor: 5,
+};
+
+/* TODO: Delete when using queryApi */
+export const userCourse = [
+  {
+    id: 1,
+    name: "Renzo Abanto",
+    image: "",
+    country: "Perú",
+    email: "kevin@sector.aeronautico",
+    course: "A320",
+    condition: true,
+    state: "Finalizado",
+    progress: 0,
+    total_asistencia: 0,
+    asistencia: 0,
+    test_01: 0,
+    test_02: 0,
+    proyect: 0,
+    prom: 0,
+    inasistencia: 0,
+    total: 0,
+  },
+  {
+    id: 2,
+    name: "Paola Abascal",
+    image: "",
+    country: "Perú",
+    email: "sara@sector.aeronautico",
+    course: "A320",
+    condition: true,
+    state: "Finalizado",
+    progress: 0,
+    total_asistencia: 0,
+    asistencia: 0,
+    test_01: 0,
+    test_02: 0,
+    proyect: 0,
+    prom: 0,
+    inasistencia: 0,
+    total: 0,
+  },
+  {
+    id: 3,
+    name: "Franco Urbina",
+    image: "",
+    country: "Perú",
+    email: "arian@sector.aeronautico",
+    course: "A320",
+    condition: false,
+    state: "Finalizado",
+    progress: 0,
+    total_asistencia: 0,
+    asistencia: 0,
+    test_01: 0,
+    test_02: 0,
+    proyect: 0,
+    prom: 0,
+    inasistencia: 0,
+    total: 0,
+  },
+];
+
+export const labels = [
+  "Integrante",
+  "Country",
+  "Correo",
+  "Curso",
+  "Condición",
+  "Estado",
+  "Avance %",
+  "Asistencia",
+  "Test 1",
+  "Test 2",
+  "Proyect",
+  "Prom",
+  "Inast.",
+  "P.Total",
+  "Progreso",
+];
+
+/* TODO: pendiente de actualizacion */
+export const labelsSelect = [
+  { name: "GENERAL", key: "all" },
+  { name: "CURSO 1", key: "" },
+];
