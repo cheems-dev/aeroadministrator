@@ -48,7 +48,7 @@ export default function Navbar() {
 
   return (
     <Styles>
-      <AppBar position='static'>
+      <AppBar position='static' className='background'>
         <Container maxWidth='xl'>
           <Toolbar disableGutters>
             <NavLink to='home' exact>
@@ -82,7 +82,6 @@ export default function Navbar() {
                 open={Boolean(anchorEl)}
                 onClose={handleCloseNavMenu}
                 sx={sx}
-                className='background'
               >
                 {subPages.map((subpage) => (
                   <MenuItem key={subpage.id} onClick={handleCloseNavMenu}>
