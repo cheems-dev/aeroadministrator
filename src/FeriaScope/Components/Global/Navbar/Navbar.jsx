@@ -82,6 +82,7 @@ export default function Navbar() {
                 open={Boolean(anchorEl)}
                 onClose={handleCloseNavMenu}
                 sx={sx}
+                className='background'
               >
                 {subPages.map((subpage) => (
                   <MenuItem key={subpage.id} onClick={handleCloseNavMenu}>
