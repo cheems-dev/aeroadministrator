@@ -50,7 +50,7 @@ export default function Navbar() {
     <Styles>
       <AppBar position='static' className='background'>
         <Container maxWidth='xl'>
-          <Toolbar disableGutters>
+          <Toolbar disableGutters className='background'>
             <NavLink to='home' exact>
               <Typography
                 variant='h6'
