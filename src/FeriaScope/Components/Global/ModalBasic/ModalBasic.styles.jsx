@@ -1,8 +1,6 @@
-import styled from "styled-components";
-import { CONSTANTS } from "../../../../AdministratorScope/config/constants";
-import { variables } from "../../../../AdministratorScope/config/variables";
+import styled from 'styled-components';
+import { variables } from '../../../../AdministratorScope/config/variables';
 
-const { desktop } = CONSTANTS.BREAKPOINTS;
 const { fonts, gradients } = variables;
 
 const Styles = styled.div`
@@ -17,7 +15,7 @@ const Styles = styled.div`
 
   .modal {
     &__title {
-      font-family: ${fonts["Nova-Eb"]};
+      font-family: ${fonts['Nova-Eb']};
       font-style: normal;
       font-weight: 800;
       font-size: 24px;
@@ -25,7 +23,7 @@ const Styles = styled.div`
     }
 
     &__paragraph {
-      font-family: ${fonts["Nova-Rg"]};
+      font-family: ${fonts['Nova-Rg']};
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -36,14 +34,14 @@ const Styles = styled.div`
 `;
 
 const modalStyle = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  width: "1200px",
+  position: 'absolute',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+  width: '1200px',
   borderRadius: 8,
   background: gradients.custom7,
-  backgroundBlendMode: "darken",
+  backgroundBlendMode: 'darken',
   p: 4,
   boxShadow: 24,
   zIndex: 800,

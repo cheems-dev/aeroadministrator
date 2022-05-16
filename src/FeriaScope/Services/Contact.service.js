@@ -1,4 +1,3 @@
-import { handleError } from '../Utils/errors/handleError';
 import api from './Api';
 
 const getContactPart = () => {
@@ -26,4 +25,4 @@ const getContactInfo = () => {
   return response;
 };
 
-export { getContactPart };
+export { getContactPart, getContactInfo };

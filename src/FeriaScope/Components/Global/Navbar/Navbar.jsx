@@ -9,7 +9,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 // Helper
 import { pages, subPages } from './Navbar.helper';
 // Styles
-import { anchorOrigin, anchorOriginTwo } from './Navbar.styles';
+import { anchorOrigin } from './Navbar.styles';
 import { BoxStyle, BoxStyleTwo } from './Navbar.styles';
 import { ButtonStyle, Styles, sx } from './Navbar.styles';
 import { sxTwo, transformOrigin, TypographyStyle } from './Navbar.styles';

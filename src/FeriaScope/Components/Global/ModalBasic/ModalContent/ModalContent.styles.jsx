@@ -1,8 +1,6 @@
-import styled from "styled-components";
-import { CONSTANTS } from "../../../../../AdministratorScope/config/constants";
-import { variables } from "../../../../../AdministratorScope/config/variables";
+import styled from 'styled-components';
+import { variables } from '../../../../../AdministratorScope/config/variables';
 
-const { desktop } = CONSTANTS.BREAKPOINTS;
 const { palette, fonts, gradients } = variables;
 
 const Styles = styled.div`
@@ -12,7 +10,7 @@ const Styles = styled.div`
 
   .modal {
     &__title {
-      font-family: ${fonts["Nova-Eb"]};
+      font-family: ${fonts['Nova-Eb']};
       font-style: normal;
       font-weight: 800;
       font-size: 24px;
@@ -22,7 +20,7 @@ const Styles = styled.div`
     }
 
     &__paragraph {
-      font-family: ${fonts["Nova-Rg"]};
+      font-family: ${fonts['Nova-Rg']};
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -38,12 +36,12 @@ const Styles = styled.div`
       border: none;
 
       .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
-        font-family: ${fonts["Nova-Rg"]};
+        font-family: ${fonts['Nova-Rg']};
         color: ${palette.neutro.second3};
       }
 
       .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
-        font-family: ${fonts["Nova-Rg"]};
+        font-family: ${fonts['Nova-Rg']};
         color: ${palette.dark};
       }
 
@@ -64,12 +62,12 @@ const Styles = styled.div`
       text-transform: capitalize;
       font-style: normal;
       line-height: 24px;
-      font-family: ${fonts["Nova-Rg"]};
+      font-family: ${fonts['Nova-Rg']};
       padding: 8px 32px;
       color: ${palette.white};
-      background-image: ${(props) => (props.tnc ? gradients.second1 : "")};
+      background-image: ${(props) => (props.tnc ? gradients.second1 : '')};
       background-color: ${(props) =>
-        !props.tnc ? palette.neutro.second3 : ""};
+        !props.tnc ? palette.neutro.second3 : ''};
       border-radius: 4px;
       font-weight: 800;
       font-size: 16px;
@@ -91,7 +89,7 @@ const Styles = styled.div`
     }
 
     &__question {
-      font-family: ${fonts["Nova-Sb"]};
+      font-family: ${fonts['Nova-Sb']};
       font-style: normal;
       font-weight: 700;
       font-size: 16px;
@@ -145,7 +143,7 @@ const Styles = styled.div`
     gap: 64px;
 
     &__paragraph {
-      font-family: ${fonts["Nova-Lt"]};
+      font-family: ${fonts['Nova-Lt']};
       font-style: normal;
       font-size: 16px;
       line-height: 24px;

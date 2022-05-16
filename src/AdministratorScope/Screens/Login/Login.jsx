@@ -1,9 +1,8 @@
 import React from 'react';
 import { ErrorMessage, Field, Form, Formik } from 'formik';
 import { useDispatch } from 'react-redux';
-import { setCookie } from 'react-use-cookie';
 import Swal from 'sweetalert2';
-import { Alert, AlertTitle } from '@mui/material';
+import { Alert } from '@mui/material';
 // Svg
 import Logo from '../../../assets/img/logo-footer.svg';
 // React-router
@@ -15,7 +14,6 @@ import Image from '../../Components/Global/Image/Image';
 import { variables } from '../../config/variables';
 // Services
 import { loginSuccess } from '../../Redux/actions/authActions';
-import AuthService from '../../services/Auth.service';
 // Handler
 import { handleFieldError, initialValues } from './Login.handler';
 // Styles

@@ -1,4 +1,3 @@
-import { handleError } from '../Utils/errors/handleError';
 import api from './Api';
 
 const getQuestion = () => {

@@ -6,9 +6,7 @@ import CardText from '../../../Global/Cards/CardText/CardText';
 import Styles from './DelegationSectionTwo.styles';
 
 export default function DelegationSectionTwo(props) {
-  const { one, two, tree, list } = props;
-  /* TODO: Pendiente usar el isLoading para renderizar */
-  /*  console.log(list); */
+  const { one, two } = props;
 
   return (
     <Styles>

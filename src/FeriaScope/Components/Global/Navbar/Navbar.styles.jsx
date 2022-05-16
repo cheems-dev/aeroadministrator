@@ -6,6 +6,9 @@ const { tablet, desktop } = CONSTANTS.BREAKPOINTS;
 const { fonts, gradients, palette } = variables;
 
 const Styles = styled.div`
+  background: ${gradients.custom2};
+  background-blend-mode: darken;
+  background-color: ${gradients.custom2};
   .css-hip9hq-MuiPaper-root-MuiAppBar-root {
     background: ${gradients.custom2};
     background-blend-mode: darken;

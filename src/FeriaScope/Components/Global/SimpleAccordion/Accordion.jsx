@@ -1,10 +1,10 @@
-import React from "react";
-import { Accordion, AccordionDetails } from "@mui/material";
-import { AccordionSummary, Typography } from "@mui/material";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import React from 'react';
+import { Accordion, AccordionDetails } from '@mui/material';
+import { AccordionSummary } from '@mui/material';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 // Styles
-import Styles from "./Accordion.styles";
+import Styles from './Accordion.styles';
 
 export default function SimpleAccordion(props) {
   const { ariaControls, id } = props;
@@ -18,10 +18,10 @@ export default function SimpleAccordion(props) {
           aria-controls={ariaControls}
           id={id}
         >
-          <div className="question">{question}</div>
+          <div className='question'>{question}</div>
         </AccordionSummary>
         <AccordionDetails>
-          <div className="answer">{answer}</div>
+          <div className='answer'>{answer}</div>
         </AccordionDetails>
       </Accordion>
     </Styles>
