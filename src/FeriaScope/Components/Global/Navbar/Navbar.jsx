@@ -169,7 +169,9 @@ export default function Navbar() {
               </IconButton>
             </Tooltip> */}
               <NavLink to='/login' exact activeClassName='link'>
-                <Button variant='outlined'> Entrar</Button>
+                <Button className='buttonMUI' variant='outlined'>
+                  Entrar
+                </Button>
               </NavLink>
 
               {/* TODO: Pendiente para cuando el usuario se loguee, no borrar por favor */}

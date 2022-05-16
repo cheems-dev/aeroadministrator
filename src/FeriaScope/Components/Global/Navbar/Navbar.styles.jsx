@@ -9,6 +9,16 @@ const Styles = styled.div`
   background: ${gradients.custom2};
   background-blend-mode: darken;
   background-color: ${gradients.custom2};
+  width: auto;
+  padding: 0 96px;
+
+    @media screen and (max-width: ${desktop}px) {
+      padding: 0 32px;
+    }
+
+    @media screen and (max-width: ${tablet}px) {
+      padding: 0 16px;
+
   .css-hip9hq-MuiPaper-root-MuiAppBar-root {
     background: ${gradients.custom2};
     background-blend-mode: darken;
@@ -24,6 +34,17 @@ const Styles = styled.div`
     -webkit-text-fill-color: transparent;
     border: 3px solid ${palette.palidBlue} !important;
   }
+  
+  .buttonMUI {
+ font-size: 12px;
+    font-family: ${fonts['Nova-Eb']};
+    background: ${gradients.second1};
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 3px solid ${palette.palidBlue} !important;
+  }
+
 
   .css-19r6kue-MuiContainer-root {
     padding: 0 96px;
